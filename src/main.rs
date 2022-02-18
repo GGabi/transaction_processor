@@ -75,7 +75,7 @@ mod ledger_tests {
       total: new_currency(10000),
       locked: false,
     };
-    assert_eq!(actual, expected);
+    assert_eq!(actual, Some(expected));
     Ok(())
   }
   #[test]
@@ -93,7 +93,7 @@ mod ledger_tests {
           total: new_currency(152500),
           locked: false,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
   #[test]
@@ -113,7 +113,7 @@ mod ledger_tests {
           total: new_currency(115000),
           locked: false,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
   #[test]
@@ -172,7 +172,7 @@ mod ledger_tests {
           total: new_currency(152500),
           locked: false,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
   #[test]
@@ -200,7 +200,7 @@ mod ledger_tests {
           total: new_currency(152500),
           locked: false,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
   #[test]
@@ -228,7 +228,7 @@ mod ledger_tests {
       total: new_currency(100000),
       locked: true,
     };
-    assert_eq!(actual, expected);
+    assert_eq!(actual, Some(expected));
     Ok(())
   }
   #[test]
@@ -251,7 +251,7 @@ mod ledger_tests {
           total: new_currency(100000),
           locked: false,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
   #[test]
@@ -279,7 +279,7 @@ mod ledger_tests {
           total: new_currency(47500),
           locked: false,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
   #[test]
@@ -307,7 +307,7 @@ mod ledger_tests {
           total: new_currency(100000),
           locked: true,
       };
-      assert_eq!(actual, expected);
+      assert_eq!(actual, Some(expected));
       Ok(())
   }
 }
