@@ -1,6 +1,8 @@
 
 # transaction_processor
 
+![cargo test](https://github.com/GGabi/transaction_processor/actions/workflows/rust.yml/badge.svg)
+
 ## Notes
 
 ### Basics
